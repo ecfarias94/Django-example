@@ -25,7 +25,7 @@ SECRET_KEY = 'pwm1+tco0krf92t@xwrag)t83&@4ya&bi+5x1a$u=)ssxk48j-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://ecfarias94.pythonanywhere.com/']
 
 
 # Application definition
