@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+{% extends "basic_app/base.html" %}
+
+{% block body_block %}
+
+<div class="jumbotron">
+    <h1>Django Level Five</h1>
+
+                {% if user.is_authenticated %}
+                <p>TA LOGADO MEU GALO</p>
+                {% else %}
+                <p>DESLOGADO!</p>
+                {% endif %}
+
+</div>
+
+{% endblock %}
+
+
